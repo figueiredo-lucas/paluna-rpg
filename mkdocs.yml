@@ -1,0 +1,5 @@
+site_name: Paluna RPG
+site_url: https://mydomain.org/paluna
+theme:
+  name: material
+  language: pt-BR

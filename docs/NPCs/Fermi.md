@@ -1,0 +1,1 @@
+É o contador de histórias e memória da vila, o ancião.

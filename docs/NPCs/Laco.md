@@ -1,0 +1,1 @@
+Caçador da vila, acostumado a adentrar na floresta.
