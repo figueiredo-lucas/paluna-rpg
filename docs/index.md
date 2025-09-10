@@ -10,6 +10,6 @@ Lucas Bigode
 
 ## Jogadores
 
-Lucas - [Susannah](PCs/Susannah)
+Lucas - [Susannah](PCs/Susannah.md)
 
-Matheus - [Padre Beocca](PCs/Padre%20Beocca)
+Matheus - [Padre Beocca](PCs/Padre%20Beocca.md)
