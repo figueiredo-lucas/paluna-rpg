@@ -6,12 +6,13 @@ Perícia usada para perceber e interagir com o Mundo Espiritual.
 - **Detecção:** com sucesso, detecta espíritos a até **POW metros**.
 - **Custo:** 1 Magic Point + tempo de preparação ritual (tabela de transe).
 - **Efeitos por hierarquia no culto:**
-  | Nível | Capacidades |
-  |-------|-------------|
-  | **Follower** | Pode observar e identificar espíritos próximos. |
-  | **Spirit Worshipper** | Pode conversar com espíritos via comunicação empática. |
-  | **Shaman** | Projeta a alma no Mundo Espiritual; pode expulsar ou chamar espíritos para o mundo físico. Espíritos resistentes usam **Willpower** contra o **Trance** do xamã. |
-  | **High Shaman** | Pode levar outras almas consigo (1 MP extra por pessoa). Distância máxima no Mundo Espiritual = valor da skill em **km**. |
+
+| Nível | Capacidades |
+|-------|-------------|
+| **Follower** | Pode observar e identificar espíritos próximos. |
+| **Spirit Worshipper** | Pode conversar com espíritos via comunicação empática. |
+| **Shaman** | Projeta a alma no Mundo Espiritual; pode expulsar ou chamar espíritos para o mundo físico. Espíritos resistentes usam **Willpower** contra o **Trance** do xamã. |
+| **High Shaman** | Pode levar outras almas consigo (1 MP extra por pessoa). Distância máxima no Mundo Espiritual = valor da skill em **km**. |
 
 - **Resultados especiais:**
   - **Sucesso crítico:** entrada no transe é mais rápida.
