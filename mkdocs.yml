@@ -3,3 +3,16 @@ site_url: https://figueiredo-lucas.github.io/paluna-rpg
 theme:
   name: material
   language: pt-BR
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Mudar para modo escuro
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
