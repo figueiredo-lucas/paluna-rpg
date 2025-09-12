@@ -33,34 +33,51 @@
 ---
 
 ## ⚔️ Armas de duas mãos
-| Weapon       | Damage  | Size | Reach | Combat Effects              | ENC | AP/HP | Traits        | Milieu | Cost |
-|--------------|---------|------|-------|-----------------------------|-----|-------|---------------|--------|------|
-| Battleaxe    | 1d8+1   | L    | M     | Bleed, Sunder               | 1   | 4/8   | —             | A-M    | 100 SP |
-| Glaive       | 1d10+2  | L    | L     | Bleed, Sunder               | 2   | 4/10  | —             | M      | 250 SP |
-| Great Axe    | 2d6+2   | H    | L     | Bleed, Sunder               | 2   | 4/10  | —             | A-M    | 125 SP |
-| Great Club   | 2d6     | H    | L     | Bash, Stun Location         | 3   | 4/10  | —             | All    | 50 SP |
-| Great Hammer | 1d10+3  | H    | L     | Bash, Stun Location, Sunder | 3   | 4/10  | —             | M-E    | 250 SP |
-| Greatsword   | 2d8     | H    | L     | Bleed, Impale, Sunder       | 4   | 6/12  | —             | M-E    | 300 SP |
-| Halberd      | 1d8+2   | L    | VL    | Entangle, Impale, Sunder    | 4   | 4/10  | Set vs Charge | M-E    | 200 SP |
-| Longspear    | 1d10+1  | L    | VL    | Impale                      | 2   | 4/10  | Set vs Charge | All    | 30 SP |
-| Pike/Sarissa | 1d10+2  | L    | VL    | Impale                      | 4   | 4/12  | Set vs Charge | A-M    | 90 SP |
-| Quarterstaff | 1d8     | M    | L     | Stun Location               | 2   | 4/8   | Defensive     | All    | 20 SP |
+| Weapon                 | Damage  | Size | Reach | Combat Effects              | ENC | AP/HP | Traits        | Milieu | Cost |
+|------------------------|---------|------|-------|-----------------------------|-----|-------|---------------|--------|------|
+| Battleaxe              | 1d8+1   | L    | M     | Bleed, Sunder               | 1   | 4/8   | —             | A-M    | 100 SP |
+| Garrote                | 1d2     | S    | T     | -                           | -   | 1/2   | Stealth       | A-I    | 15 SP |
+| Glaive/Rhomphaia       | 1d10+2  | L    | L     | Bleed, Sunder               | 2   | 4/10  | —             | A-M    | 250 SP |
+| Great Axe              | 2d6+2   | H    | L     | Bleed, Sunder               | 2   | 4/10  | —             | A-M    | 125 SP |
+| Great Club             | 2d6     | H    | L     | Bash, Stun Location         | 3   | 4/10  | —             | All    | 50 SP |
+| Great Hammer           | 1d10+3  | H    | L     | Bash, Stun Location, Sunder | 3   | 4/10  | —             | M-E    | 250 SP |
+| Greatsword             | 2d8     | H    | L     | Bleed, Impale, Sunder       | 4   | 6/12  | —             | M-E    | 300 SP |
+| Halberd/Poleaxe        | 1d8+2   | L    | VL    | Entangle, Impale, Sunder    | 4   | 4/10  | Set           | A-E    | 200 SP |
+| Longspear              | 1d10+1  | L    | VL    | Impale                      | 2   | 4/10  | Set           | All    | 30 SP |
+| Longsword              | 1d10    | L    | L     | Bleed, Impale, Sunder       | 2   | 6/12  | —             | M-E    | 250 SP |
+| Military Flail         | 1d10    | L    | L     | Bash, Stun Location         | 3   | 4/10  | Flexible      | M-E    | 250 SP |
+| Pike/Sarissa           | 1d10+2  | L    | VL    | Impale                      | 4   | 4/12  | Set           | A-M    | 90 SP |
+| Quarterstaff           | 1d8     | M    | L     | Stun Location               | 2   | 4/8   | Defensive     | All    | 20 SP |
+| Xyston                 | 1d10    | L    | VL    | Impale                      | 3   | 4/10  | Set; Double Ended | A    | 100 SP |
 
 ---
 
 ## 🏹 Armas a distância
-| Arma       | Dano   | Tamanho | Alcance | Efeitos de Combate     | ENC | AP/HP | Traços | Milieu | Custo |
-|--------------|--------|------|-------|-----------------------|-----|-------|----------------|--------|------|
-| Bow, Short   | 1d8    | L    | 100m  | Impale                | 2   | 4/8   | Reload (1)     | A-M    | 100 SP |
-| Bow, Long    | 1d10   | L    | 150m  | Impale                | 3   | 4/10  | Reload (1)     | M      | 150 SP |
-| Bow, Composite| 1d10  | L    | 125m  | Impale                | 3   | 4/10  | Reload (1)     | A-M    | 250 SP |
-| Crossbow, Light | 1d8 | M    | 100m  | Impale                | 3   | 4/8   | Reload (2)     | M-E    | 150 SP |
-| Crossbow, Heavy | 1d12| L    | 200m  | Impale                | 4   | 4/10  | Reload (3)     | M-E    | 300 SP |
-| Javelin      | 1d8    | M    | 20m   | Impale                | 1   | 4/6   | Thrown         | All    | 15 SP |
-| Sling        | 1d6    | S    | 50m   | Stun Location         | —   | 4/4   | Reload (1)     | A-M    | 5 SP  |
-| Throwing Axe | 1d6    | M    | 15m   | Bleed                 | 1   | 4/6   | Thrown         | A-M    | 20 SP |
-| Throwing Knife | 1d3  | S    | 10m   | Bleed, Impale         | —   | 4/4   | Thrown         | All    | 5 SP  |
-| Dart         | 1d3    | S    | 15m   | Impale                | —   | 4/4   | Thrown         | All    | 2 SP  |
+| Arma              | Dano   | Mod. de Dano| Força   | Alcance     | Load     | Efeitos de Combate         |Tamanho Impalamento| ENC | AP/HP | Milieu | Custo |
+|--------------     |--------|--------     |------   |-------      |-------   |-----------------------     |-------------------|-----|-------|--------|-------|
+| Atlatl            | —      | —           | —       | +0/+25/+75  | 1        | —                          | —                 | 1   | 1/4   | P      | 10 SP |
+| Blowgun           | —      | N           | —       | 10/20/30    | 2        | —                          | —                 | —   | 1/4   | P      | 30 SP |
+| Bolas             | 1d4    | N           | —       | 10/25/50    | —        | Entangle                   | —                 | —   | 2/2   | P-A    | 10 SP |
+| Dagger            | 1d4    | Y           | S       | 5/10/20     | —        | Impale                     | S                 | —   | 6/8   | All    | 30 SP |
+| Dart              | 1d4    | Y           | S       | 5/10/20     | —        | Impale                     | S                 | —   | 2/1   | P-A    | 10 SP |
+| Discus            | 1d4+1  | Y           | L       | 5/20/40     | —        | Stun Location              | —                 | —   | 2/3   | A      | 30 SP |
+| Hatchet           | 1d6    | Y           | S       | 10/20/30    | —        | Bleed                      | —                 | 1   | 4/6   | All    | 25 SP |
+| Heavy Crossbow    | 1d10   | N           | H       | 20/150/300  | 4        | Impale, Sunder             | S                 | 2   | 4/8   | M-E    | 350 SP |
+| Javelin           | 1d8+1  | Y           | H       | 10/20/50    | —        | Impale, Pin Weapon (shield)| M                 | 1   | 3/8   | A-M    | 20 SP |
+| Light Crossbow    | 1d8    | N           | L       | 20/100/200  | 3        | Impale                     | S                 | 1   | 4/5   | M-E    | 150 SP |
+| Long Bow          | 1d8    | Y           | H       | 15/125/250  | 2        | Impale                     | S                 | 1   | 4/7   | M      | 200 SP |
+| Net               | —      | N           | —       | 3/5/10      | —        | Entangle                   | —                 | 3   | 2/20  | All    | 20 SP |
+| Recurve Bow       | 1d8    | Y           | H       | 15/125/250  | 2        | Impale                     | S                 | 1   | 4/8   | A-M    | 225 SP |
+| Short Bow         | 1d6    | Y           | L       | 15/100/200  | 2        | Impale                     | S                 | 1   | 4/4   | P-M    | 75 SP  |
+| Shortspear        | 1d8    | Y           | L       | 10/15/30    | —        | Impale                     | M                 | 1   | 4/5   | All    | 20 SP  |
+| Sling             | 1d8    | N           | L       | 10/150/300  | 3        | Stun Location              | —                 | —   | 1/2   | All    | 5 SP   |
+| Staff Sling       | 2d6    | N           | E       | 5/25/50     | 4        | Stun Location              | —                 | 2   | 3/6   | A-M    | 20 SP  |
+| Stone/Rock        | 1d3    | Y           | S       | 5/10/20     | —        | Stun Location              | —                 | —   | —     | All    |        |
+| Trident           | 1d8    | Y           | L       | 10/15/30    | —        | Barbed/Impale              | M                 | 2   | 4/10  | A-M    | 155 SP |
+
+
+
+
 
 ---
 
