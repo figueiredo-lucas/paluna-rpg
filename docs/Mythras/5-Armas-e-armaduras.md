@@ -1,6 +1,6 @@
 # Armas & Armaduras
 
-**Milieu**: *M = Medieval, A = Ancient, E = Early Modern, All = qualquer*
+**Milieu**: *P = Prehistoric, A = Ancient, M = Medieval, R = Renaissance, E = Early Modern, I = Industrial, All = qualquer*
 
 ---
 
