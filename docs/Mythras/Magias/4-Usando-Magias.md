@@ -1,4 +1,4 @@
-# 📜 Como Funciona o Uso da Magia?
+# 4 Como Funciona o Uso da Magia?
 
 > Nesta seção, você aprenderá sobre **tempos de conjuração**, **energia mágica** e as **fontes de Pontos Mágicos** em Mythras.
 
