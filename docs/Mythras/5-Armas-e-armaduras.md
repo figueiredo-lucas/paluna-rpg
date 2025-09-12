@@ -73,6 +73,7 @@
 | Kite     | 1d4   | H       | S       | Bash, Stun Location    | 3   | 4/15  | Bloqueia 4 locais | M   | 300 SP|
 | Peltast  | 1d4   | L       | S       | Bash, Stun Location    | 2   | 4/12  | Bloqueia 3 locais | A-M | 150 SP|
 | Scutum   | 1d4   | H       | S       | Bash, Stun Location    | 4   | 4/18  | Bloqueia 5 locais | A-M | 450 SP|
+| Target   | 1d3+1 | L       | S       | Bash, Impale           | 2   | 4/9   | Bloqueia 3 locais | A-E | 150 SP|
 | Viking   | 1d4   | L       | S       | Bash, Stun Location    | 3   | 4/12  | Bloqueia 4 locais | M   | 300 SP|
 
 
