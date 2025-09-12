@@ -7,16 +7,28 @@
 ## ⚔️ Armas de uma mão
 | Arma       | Dano   | Tamanho | Alcance | Efeitos de Combate     | ENC | AP/HP | Traços | Milieu | Custo |
 |------------|--------|------|-------|---------------------|-----|-------|----------|--------|------|
-| Hatchet    | 1d6    | S    | S     | Bleed               | 1   | 4/6   | Thrown   | A-M    | 25 SP |
-| Falchion   | 1d6+2  | M    | M     | Bleed               | 1   | 6/10  | —        | M-E    | 200 SP |
-| Flail      | 1d6    | M    | M     | Bash                | 1   | 3/6   | Flexible | M-E    | 25 SP |
-| Knife      | 1d3    | S    | S     | Bleed, Impale       | —   | 5/4   | Thrown   | All    | 10 SP |
-| Longsword  | 1d8    | M    | L     | Bleed, Impale       | 2   | 6/12  | —        | M-E    | 250 SP |
-| Mace       | 1d8    | M    | S     | Bash, Stun Location | 1   | 6/6   | —        | A-M    | 100 SP |
+| Ball & Chain | 1d6+1  | M    | M     | Bash, Entangle, Stun Location       | 2   | 6/8   | Flexible   | M    | 250 SP |
+| Battleaxe  | 1d6+1  | M    | M     | Bleed, Sunder       | 1   | 4/8   | —        | A-R    | 100 SP |
+| Broadsword | 1d8    | M    | M     | Bleed, Impale       | 2   | 6/10  | Flexible | A-E    | 175 SP |
+| Chain      | 1d4    | M    | M     | Entangle            | 1   | 8/6   | Flexible | A-I    | 10 SP |
+| Club       | 1d6    | M    | S     | Bash, Stun Location | 1   | 4/4   | Thrown   | ALL    | 5 SP |
+| Dagger     | 1d4+1  | S    | S     | Bleed, Impale       | —   | 6/8   | Thrown   | ALL    | 30 SP |
+| Hatchet    | 1d6    | S    | S     | Bleed               | 1   | 4/6   | Thrown   | ALL    | 25 SP |
+| Falchion   | 1d6+2  | M    | M     | Bleed               | 1   | 6/10  | —        | A-M    | 200 SP |
+| Flail      | 1d6    | M    | M     | Bash                | 1   | 3/6   | Flexible | A-M    | 25 SP |
+| Knife      | 1d3    | S    | S     | Bleed, Impale       | —   | 5/4   | —        | All    | 10 SP |
+| Longsword  | 1d8    | M    | L     | Bleed, Impale       | 2   | 6/12  | —        | M-R    | 250 SP |
+| Mace       | 1d8    | M    | S     | Bash, Stun Location | 1   | 6/6   | —        | A-R    | 100 SP |
+| Main Gauche| 1d4    | S    | S     | Bleed               | —   | 6/10  | Entrapping| M-E      | 180 SP |
+| Military pick     | 1d6+1    | M    | M     | Stun Location, Sunder              | 3   | 6/10   | —        | M-E      | 180 SP |
+| Net     | 1d4    | S    | L     | Entangle              | 3   | 2/20   | Entrapping, Thrown        | All      | 100 SP |
 | Rapier     | 1d8    | M    | L     | Impale              | 1   | 5/8   | —        | E      | 100 SP |
-| Sabre      | 1d6+1  | M    | M     | Bleed, Impale       | 1   | 6/8   | —        | E      | 225 SP |
-| Scimitar   | 1d8    | M    | M     | Bleed               | 2   | 6/10  | —        | M      | 200 SP |
-| Shortsword | 1d6    | M    | S     | Bleed, Impale       | 1   | 6/8   | —        | A-M    | 100 SP |
+| Sabre      | 1d6+1  | M    | M     | Bleed, Impale       | 1   | 6/8   | —        | E-I      | 225 SP |
+| Scimitar   | 1d8    | M    | M     | Bleed               | 2   | 6/10  | —        | M-E      | 200 SP |
+| ShortSpear   | 1d8+1    | M    | L     | Impale               | 2   | 4/5  | Set, Thrown        | All      | 20 SP |
+| Shortsword | 1d6    | M    | S     | Bleed, Impale       | 1   | 6/8   | —        | All    | 100 SP |
+| Trident | 1d8    | M    | L     | Impale       | 2   | 4/10   | Barbed, Thrown        | A-M    | 155 SP |
+| Whip | 1d3    | M    | VL     | Entangle, Stun, Location       | 1   | 2/8   | Entrapping, Flexible, Offensive        | A-M    | 100 SP |
 
 ---
 
