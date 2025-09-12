@@ -1,0 +1,1531 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://figueiredo-lucas.github.io/paluna-rpg/Mythras/Magias/1-Base/">
+      
+      
+        <link rel="prev" href="../../Animist/1-Magias/">
+      
+      
+        <link rel="next" href="../2-Tradi%C3%A7%C3%B5es/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.19">
+    
+    
+      
+        <title>1 Base - Paluna RPG</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#magias" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Paluna RPG" class="md-header__button md-logo" aria-label="Paluna RPG" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Paluna RPG
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              1 Base
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Paluna RPG" class="md-nav__button md-logo" aria-label="Paluna RPG" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Paluna RPG
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Mythras
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Mythras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1-Caracteristicas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Características
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2-Atributos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Atributos Derivados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3-Habilidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Habilidades
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4-Habilidades-magicas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Habilidades Mágicas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5-Armas-e-armaduras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Armas &amp; Armaduras
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6-Sistema-de-jogo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sistema de jogo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7-Venenos-e-doencas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Venenos &amp; Doenças
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../8-Idade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Categorias de idade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9-Combate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Combate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_10" id="__nav_2_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Animist
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            Animist
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Animist/1-Magias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Binding &amp; Trance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_11" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Magias
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            Magias
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    1 Base
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    1 Base
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#magias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Magias
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Magias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#magia-popular-folk-magic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Magia Popular (Folk Magic)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#animismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Animismo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misticismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Misticismo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feiticaria-sorcery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feitiçaria (Sorcery)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teísmo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-Tradi%C3%A7%C3%B5es/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2 Tradições
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3-Organiza%C3%A7%C3%B5es/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3 Organizações
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4-Usando-Magias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4 Como Funciona o Uso da Magia?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5-Personagens-Magias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5 Personagens &amp; Magia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_12" id="__nav_2_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Theism
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_12">
+            <span class="md-nav__icon md-icon"></span>
+            Theism
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theism/1-Base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Theism
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    NPCs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            NPCs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Dalma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dalma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Ferda-e-Wena/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferda e Wena
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Fermi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fermi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Gaco/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gaco
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Laco/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Laco
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Micha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Micha
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Olan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Olan
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Varcha-e-Fiana/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Varcha e Fiana
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NPCs/Winna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Winna
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    PCs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            PCs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PCs/Padre%20Beocca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Padre Beocca
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PCs/Susannah/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Susannah
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#magias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Magias
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Magias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#magia-popular-folk-magic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Magia Popular (Folk Magic)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#animismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Animismo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misticismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Misticismo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feiticaria-sorcery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feitiçaria (Sorcery)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teísmo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>1 Base</h1>
+
+<h2 id="magias">Magias</h2>
+<p>A magia em <strong>Mythras</strong> assume diversas formas, dependendo da fonte de poder e do estilo do praticante. Todas as magias compartilham a capacidade de manipular ou superar a ordem natural do mundo para produzir efeitos sobrenaturais. As principais disciplinas mágicas são:</p>
+<ul>
+<li><a href="#teísmo"><strong>Magia do Teísta</strong></a>: derivada da relação do personagem com sua divindade.  </li>
+<li><a href="#feitiçaria-sorcery"><strong>Feitiçaria (Sorcery)</strong></a>: baseada no domínio de fórmulas e leis metafísicas da criação.  </li>
+<li><a href="#animismo"><strong>Animismo</strong></a>: centrada na interação com espíritos ligados ao mundo mortal.  </li>
+<li><a href="#misticismo"><strong>Misticismo</strong></a>: focada no poder interno do praticante, através de compreensão profunda e canalização de energia.  </li>
+<li><a href="#magia-popular-folk-magic"><strong>Magia Popular (Folk Magic)</strong></a>: simples feitiços e truques do cotidiano, acessíveis a todos, dependendo do cenário.</li>
+</ul>
+<p>Essas disciplinas fornecem diferentes estilos de magia, permitindo ao Mestre de Jogo adaptar a mecânica ao cenário e à narrativa de sua campanha. Cada disciplina possui suas forças, limitações e formas únicas de interação com o mundo.</p>
+<h3 id="magia-popular-folk-magic">Magia Popular (Folk Magic)</h3>
+<p>A <strong>Magia Popular</strong> é a forma mais básica de magia disponível, geralmente associada a <strong>feiticeiros de aldeia, bruxas, curandeiras</strong> e similares. Consiste em feitiços simples e truques que oferecem efeitos mágicos limitados e que, quando permitido, podem ser usados por qualquer pessoa.  </p>
+<p>Com frequência, a Magia Popular é ensinada dentro das comunidades desde cedo, refletindo as necessidades do grupo. Isso significa que a magia ensinada por uma <strong>cultura bárbara</strong> será diferente daquela ensinada por uma <strong>cultura civilizada</strong>.  </p>
+<p>Além disso, certas profissões ou cultos também transmitem Magia Popular para auxiliar seus membros em suas funções e deveres.  </p>
+<p>Portanto, em teoria, a Magia Popular pode ser acessível a todos.<br />
+Na prática, entretanto, sua disponibilidade pode ser <strong>altamente restrita</strong> dependendo do cenário da campanha.  </p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Atributos usados</th>
+<th>O que mede</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Folk Magic</strong></td>
+<td>POW + CHA</td>
+<td>Conhecimento e uso de feitiços menores do dia a dia</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="animismo">Animismo</h3>
+<p>Uma disciplina mágica mais avançada, o <strong>Animismo</strong> é a prática de lidar com o <strong>mundo espiritual</strong> e com espíritos ligados ao reino mortal de alguma forma.  </p>
+<p>Os <strong>animistas</strong> são xamãs e totemistas que desenvolvem deliberadamente relações com espíritos para realizar efeitos mágicos, geralmente em nome de uma comunidade, mas também para obter poder pessoal.  </p>
+<p>Animistas acreditam que todas as coisas — sejam animadas ou inanimadas, orgânicas ou inorgânicas — possuem um espírito ou alma. A relação com esse espírito permite que seu poder seja invocado e utilizado pelo animista.  </p>
+<p>O animismo geralmente ensina um profundo <strong>respeito pelo mundo natural e espiritual</strong>, incutindo em seus praticantes a necessidade de <strong>moderação e reciprocidade</strong>.  </p>
+<p>Entretanto, isso não significa que não existam <strong>xamãs renegados</strong>: mesmo o animismo tem sua parcela de indivíduos egoístas, dispostos a ignorar esse respeito em favor da busca por maior poder pessoal, ainda que isso seja feito às custas do mundo espiritual.  </p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Atributos usados</th>
+<th>O que mede</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Binding</strong></td>
+<td>POW + CON</td>
+<td>Prender espíritos em totens ou objetos</td>
+</tr>
+<tr>
+<td><strong>Trance</strong></td>
+<td>POW + CHA</td>
+<td>Entrar em estado alterado de consciência para contatar espíritos</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="misticismo">Misticismo</h3>
+<p>O <strong>Misticismo</strong> alcança seus efeitos por meio da combinação entre uma profunda compreensão da estrutura da realidade e o direcionamento de energia para produzir ações resultantes.  </p>
+<p>O místico atinge esse estado de entendimento através da <strong>contemplação constante</strong> do mundo ao seu redor, discernindo suas verdades e meditando sobre a própria natureza da existência. Esse processo costuma estar associado à formulação de questões filosóficas desafiadoras, mas, na prática, é mais comum que o místico simplesmente compreenda tanto o seu lugar no universo quanto como o próprio universo se organiza.  </p>
+<p>Essa compreensão abre o caminho para liberar o <strong>potencial interior</strong> do místico. Em última instância, os místicos buscam <strong>transcender os limites do mundo natural</strong> e atingir um estado mais elevado de consciência, colocando-se em união direta com as forças do cosmos.  </p>
+<p>Na realidade, entretanto, o processo é muito mais complexo: todo místico experiente sabe que existe sempre um <strong>estado de existência ainda mais elevado</strong> a ser alcançado — um que transcende até mesmo os poderes dos deuses.  </p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Atributos usados</th>
+<th>O que mede</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Meditation</strong></td>
+<td>INT + POW</td>
+<td>Concentrar-se, resistir distrações, entrar em estado mental especial</td>
+</tr>
+<tr>
+<td><strong>Mysticism</strong></td>
+<td>POW + INT</td>
+<td>Uso de talentos místicos, foco interior e habilidades sobrenaturais</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="feiticaria-sorcery">Feitiçaria (Sorcery)</h3>
+<p>A <strong>Feitiçaria</strong> é a manipulação das leis fundamentais que controlam a própria estrutura da criação. Essas fórmulas são equações complexas: uma mistura de princípios <strong>matemáticos, psicológicos, existenciais e sobrenaturais</strong>, que permitem ao feiticeiro compreender uma fração da realidade e dobrá-la à sua vontade.  </p>
+<p>Os feiticeiros não precisam depender de deuses para obter seus poderes, nem interagir com espíritos para alcançar seus efeitos. Sua manipulação dessas equações metafísicas torna a feitiçaria <strong>muito poderosa e extremamente flexível</strong>.  </p>
+<p>Entretanto, isso também faz com que os feiticeiros sejam vistos com <strong>suspeita, medo e até ódio</strong> por aqueles que adquirem sua magia por meios menos diretos. E, como têm pouca necessidade de deuses ou espíritos, não é incomum que desenvolvam certo grau de <strong>arrogância e desprezo</strong> por aqueles que veneram tais entidades.  </p>
+<p>Embora alguns feiticeiros mantenham um respeito saudável pelos deuses, e até pratiquem culto, isso não diminui o fato de que, por meio de sua magia, eles buscam realizar atos que muitos podem considerar como pertencentes apenas a seres superiores.  </p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Atributos usados</th>
+<th>O que mede</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Invocation</strong></td>
+<td>POW + INT</td>
+<td>Invocar e canalizar fórmulas de feitiçaria</td>
+</tr>
+<tr>
+<td><strong>Shaping</strong></td>
+<td>INT + POW</td>
+<td>Manipular os parâmetros de um feitiço (alcance, duração, magnitude)</td>
+</tr>
+<tr>
+<td><strong>Sorcery</strong></td>
+<td>INT + POW</td>
+<td>Conhecimento teórico da magia arcana</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="teismo">Teísmo</h3>
+<p>Os <strong>teístas</strong> extraem sua magia de seus deuses. Por meio da <strong>adoração e devoção</strong>, aqueles que se dedicam a uma divindade canalizam esses poderes na forma de <strong>milagres</strong>, obtendo assim a capacidade de produzir efeitos semelhantes no mundo mundano — ainda que em uma forma bastante diluída.  </p>
+<ul>
+<li>Um devoto do <strong>Deus da Tempestade</strong> pode ser capaz de <strong>invocar relâmpagos</strong>.  </li>
+<li>Um adorador do <strong>Deus-Sol</strong> pode ser capaz de <strong>criar luz radiante</strong>, mesmo na mais profunda escuridão.  </li>
+</ul>
+<p>A magia que os teístas podem evocar está sempre ligada à <strong>natureza da divindade ou do panteão</strong> venerado.  </p>
+<p>A <strong>força da devoção</strong> a um deus tem impacto direto no poder da magia realizada; assumindo que a divindade mantém algum nível de consciência sobre seus seguidores, manter uma <strong>relação cordial</strong> com o deus é necessário para continuar recebendo seu poder.  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
